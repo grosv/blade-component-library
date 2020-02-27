@@ -14,7 +14,6 @@ class BladeComponentLibraryProvider extends ServiceProvider
     public function boot(): void
     {
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'bcl');
-        $this->loadRoutesFrom(__DIR__.'/routes.php');
 
         Blade::component(ExampleComponent::class, 'example-component');
     }
