@@ -7,23 +7,17 @@ use NunoMaduro\LaravelMojito\InteractsWithViews;
 
 class ComponentsTest extends TestCase
 {
-
+    use InteractsWithViews;
     /** @test */
     public function test_suite_restpects_view_namespaces()
     {
-        $response = $this->get('/');
-
-        $response->assertStatus(200);
-
-        $response->assertView()->contains('Laravel');
+        $this->assertView('bcl::welcome')->contains('Laravel');
 
     }
 
     /** @test */
-    public function can_show_success_component()
+    public function can_show_example_component()
     {
-        $response = $this->withoutExceptionHandling()->get('/success');
-
-        $response->assertView()->contains('It Worked');
+        $this->assertView('bcl::example')->contains('It Worked');
     }
 }

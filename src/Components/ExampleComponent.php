@@ -5,7 +5,7 @@ namespace Grosv\BladeComponentLibrary\Components;
 
 use Illuminate\View\Component;
 
-class SuccessAlertComponent extends Component
+class ExampleComponent extends Component
 {
 
 
@@ -20,6 +20,6 @@ class SuccessAlertComponent extends Component
 
     public function render()
     {
-        return view('components.success_alert');
+        return view('bcl::components.example_component');
     }
 }
