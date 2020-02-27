@@ -1,0 +1,13 @@
+{
+    "name": "grosv/blade-component-library",
+    "description": "A Laravel package designed to demonstrate how an organization can share blade components among all their Laravel 7+ sites",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ed Grosvenor",
+            "email": "ed.grosvenor@wickedviral.com"
+        }
+    ],
+    "require": {}
+}
