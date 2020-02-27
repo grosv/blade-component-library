@@ -24,6 +24,6 @@ class ComponentsTest extends TestCase
     {
         $response = $this->withoutExceptionHandling()->get('/success');
 
-        $response->assertView()->contains('It worked');
+        $response->assertView()->contains('It Worked');
     }
 }
