@@ -9,5 +9,30 @@
             "email": "ed.grosvenor@wickedviral.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^7.3",
+        "illuminate/support": "^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "5.x-dev",
+        "nunomaduro/laravel-mojito": "^0.2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Grosv\\BladeComponentLibrary\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/",
+            "App\\": "vendor/orchestra/testbench-core/laravel/app"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": "Grosv\\BladeComponentLibrary\\BladeComponentLibraryProvider"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
