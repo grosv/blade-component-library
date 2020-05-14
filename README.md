@@ -1,8 +1,5 @@
 # Laravel 7+ Blade Component Library Template
 
-## Pre-Release Warning
-Laravel 7, Orchestral Testbench 5, and this package are not yet officially released. They are all subject to change. You have been warned.
-
 ## About This Repository
 This is a template repository from which you can create your own package to share blade components across multiple Laravel apps. If you've never used a template repository, [here are some basic instructions](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
 
