@@ -10,12 +10,12 @@
         }
     ],
     "require": {
-        "php": "^7.3",
-        "illuminate/support": "^7.0"
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^7.0|^8.0"
     },
     "require-dev": {
-        "orchestra/testbench": "5.x-dev",
-        "nunomaduro/laravel-mojito": "^0.2.2"
+        "orchestra/testbench": "^6.0",
+        "nunomaduro/laravel-mojito": "^v0.2.8"
     },
     "autoload": {
         "psr-4": {
